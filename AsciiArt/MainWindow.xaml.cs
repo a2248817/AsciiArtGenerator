@@ -88,7 +88,7 @@ namespace AsciiArt
                 MessageBox.Show($"{AsciiWidth.Text}不是個有效的數字(1 ~ 255)", "錯誤", MessageBoxButton.OK);
                 return;
             }
-            if(task != null)
+            if (task != null)
             {
                 MessageBox.Show($"轉換中...");
                 return;
@@ -98,17 +98,17 @@ namespace AsciiArt
 
             var pixels = BitmapProcessor.GetPixels(bm);
 
-            task =  Task.Run(() =>
-            {
-                string s = "";
-                pixels.ForEach((row) =>
-                {
-                    row.ForEach((pixel) => s += $"{AsciiChars.Chars[(pixel.R / 120), (pixel.G / 120), (pixel.B / 120)]}");
-                    s += Environment.NewLine;
-                });
-                this.Dispatcher.Invoke(()=>AsciiOutput.Text += s);
-                task = null;
-            });
+            task = Task.Run(() =>
+           {
+               string s = "";
+               pixels.ForEach((row) =>
+               {
+                   row.ForEach((pixel) => s += $"{AsciiChars.GetAsciiChar(pixel)}");
+                   s += Environment.NewLine;
+               });
+               this.Dispatcher.Invoke(() => AsciiOutput.Text += s);
+               task = null;
+           });
 
             await task;
 

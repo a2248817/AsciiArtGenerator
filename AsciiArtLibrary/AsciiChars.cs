@@ -1,44 +1,18 @@
 ﻿using System;
+using System.Drawing;
 
 namespace AsciiArtLibrary
 {
     public static class AsciiChars
     {
         // [R G B]
-        public static Char[,,] Chars = {
-            {
-                {
-                    '＠', '＃', '！' //[0 0 0] - [0 0 2]
-                },
-                {
-                    '＄', '＆', '︿' //[0 1 0] - [0 1 2]
-                },
-                {
-                    '＃', '＠', '＂' //[0 2 0] - [0 2 2]
-                }
-            },
-            {
-                {
-                    '＠', '＃', '！' //[1 0 0] - [1 0 2]
-                },
-                {
-                    '＄', '＆', '︿' //[1 1 0] - [1 1 2]
-                },
-                {
-                    '＃', '＠', '＂' //[1 2 0] - [1 2 2]
-                }
-            },
-            {
-                {
-                    '＠', '＃', '！' //[2 0 0] - [2 0 2]
-                },
-                {
-                    '＄', '＆', '︿' //[2 1 0] - [2 1 2]
-                },
-                {
-                    '＃', '＠', '＂' //[2 2 0] - [2 2 2]
-                }
-            }
-        };
+        public static char[] Chars = { '⠁', '⠉', '⠋', '⠛', '⠟', '⠿', '⡿', '⣿' };
+        public static char GetAsciiChar(Color rgb)
+        {
+            double sum = 0.2126 * rgb.R + 0.7152 * rgb.G + 0.0722 * rgb.B;
+            int intensity = (int)Math.Round(sum / 255 * 7);
+            return Chars[intensity];
+        }
+
     }
 }
