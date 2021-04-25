@@ -16,14 +16,13 @@ namespace AsciiArt
     /// </summary>
     public partial class MainWindow : Window
     {
-        TaskBarIcon taskBarIcon = TaskBarIcon.From_File(@"./ascii.ico");
-        Bitmap selectedImage = null;
-        Task task = null;
         public MainWindow()
         {
             InitializeComponent();
         }
 
+
+        Bitmap selectedImage = null;
         private void SelectFile_Click(object sender, RoutedEventArgs e)
         {
             SelectFileDialog sfd = new();
@@ -59,6 +58,8 @@ namespace AsciiArt
             }
         }
 
+
+        TaskBarIcon taskBarIcon = TaskBarIcon.From_File(@"./ascii.ico");
         private void Main_StateChanged(object sender, EventArgs e)
         {
             switch (this.WindowState)
@@ -81,6 +82,9 @@ namespace AsciiArt
             this.taskBarIcon.notifyIcon.Visible = false;
         }
 
+
+
+        Task convertTask = null;
         private async void ConvertButton_Click(object sender, RoutedEventArgs e)
         {
             if (byte.TryParse(AsciiWidth.Text, out byte Width) != true)
@@ -88,7 +92,7 @@ namespace AsciiArt
                 MessageBox.Show($"{AsciiWidth.Text}不是個有效的數字(1 ~ 255)", "錯誤", MessageBoxButton.OK);
                 return;
             }
-            if (task != null)
+            if (convertTask != null)
             {
                 MessageBox.Show($"轉換中...");
                 return;
@@ -98,7 +102,7 @@ namespace AsciiArt
 
             var pixels = BitmapProcessor.GetPixels(bm);
 
-            task = Task.Run(() =>
+            convertTask = Task.Run(() =>
            {
                string s = "";
                pixels.ForEach((row) =>
@@ -107,10 +111,10 @@ namespace AsciiArt
                    s += Environment.NewLine;
                });
                this.Dispatcher.Invoke(() => AsciiOutput.Text += s);
-               task = null;
+               convertTask = null;
            });
 
-            await task;
+            await convertTask;
 
             AsciiHeight.Text = bm.Height.ToString();
         }
