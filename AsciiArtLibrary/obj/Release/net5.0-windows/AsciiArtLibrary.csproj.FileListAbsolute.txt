@@ -22,15 +22,3 @@ C:\Users\my\Desktop\C#\AsciiArt\AsciiArtLibrary\obj\Release\net5.0-windows\Ascii
 C:\Users\my\Desktop\C#\AsciiArt\AsciiArtLibrary\obj\Release\net5.0-windows\AsciiArtLibrary.dll
 C:\Users\my\Desktop\C#\AsciiArt\AsciiArtLibrary\obj\Release\net5.0-windows\ref\AsciiArtLibrary.dll
 C:\Users\my\Desktop\C#\AsciiArt\AsciiArtLibrary\obj\Release\net5.0-windows\AsciiArtLibrary.pdb
-C:\Users\my\Desktop\新增資料夾\AsciiArtGenerator\AsciiArtLibrary\bin\Release\net5.0-windows\AsciiArtLibrary.deps.json
-C:\Users\my\Desktop\新增資料夾\AsciiArtGenerator\AsciiArtLibrary\bin\Release\net5.0-windows\AsciiArtLibrary.dll
-C:\Users\my\Desktop\新增資料夾\AsciiArtGenerator\AsciiArtLibrary\bin\Release\net5.0-windows\ref\AsciiArtLibrary.dll
-C:\Users\my\Desktop\新增資料夾\AsciiArtGenerator\AsciiArtLibrary\bin\Release\net5.0-windows\AsciiArtLibrary.pdb
-C:\Users\my\Desktop\新增資料夾\AsciiArtGenerator\AsciiArtLibrary\obj\Release\net5.0-windows\AsciiArtLibrary.csprojAssemblyReference.cache
-C:\Users\my\Desktop\新增資料夾\AsciiArtGenerator\AsciiArtLibrary\obj\Release\net5.0-windows\AsciiArtLibrary.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\my\Desktop\新增資料夾\AsciiArtGenerator\AsciiArtLibrary\obj\Release\net5.0-windows\AsciiArtLibrary.AssemblyInfoInputs.cache
-C:\Users\my\Desktop\新增資料夾\AsciiArtGenerator\AsciiArtLibrary\obj\Release\net5.0-windows\AsciiArtLibrary.AssemblyInfo.cs
-C:\Users\my\Desktop\新增資料夾\AsciiArtGenerator\AsciiArtLibrary\obj\Release\net5.0-windows\AsciiArtLibrary.csproj.CoreCompileInputs.cache
-C:\Users\my\Desktop\新增資料夾\AsciiArtGenerator\AsciiArtLibrary\obj\Release\net5.0-windows\AsciiArtLibrary.dll
-C:\Users\my\Desktop\新增資料夾\AsciiArtGenerator\AsciiArtLibrary\obj\Release\net5.0-windows\ref\AsciiArtLibrary.dll
-C:\Users\my\Desktop\新增資料夾\AsciiArtGenerator\AsciiArtLibrary\obj\Release\net5.0-windows\AsciiArtLibrary.pdb

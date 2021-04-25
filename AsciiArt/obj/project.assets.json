@@ -174,11 +174,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\my\\Desktop\\新增資料夾\\AsciiArtGenerator\\AsciiArt\\AsciiArt.csproj",
+      "projectUniqueName": "C:\\Users\\my\\Desktop\\C#\\AsciiArt\\AsciiArt.csproj",
       "projectName": "AsciiArt",
-      "projectPath": "C:\\Users\\my\\Desktop\\新增資料夾\\AsciiArtGenerator\\AsciiArt\\AsciiArt.csproj",
+      "projectPath": "C:\\Users\\my\\Desktop\\C#\\AsciiArt\\AsciiArt.csproj",
       "packagesPath": "C:\\Users\\my\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\my\\Desktop\\新增資料夾\\AsciiArtGenerator\\AsciiArt\\obj\\",
+      "outputPath": "C:\\Users\\my\\Desktop\\C#\\AsciiArt\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -199,8 +199,8 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "projectReferences": {
-            "C:\\Users\\my\\Desktop\\新增資料夾\\AsciiArtGenerator\\AsciiArtLibrary\\AsciiArtLibrary.csproj": {
-              "projectPath": "C:\\Users\\my\\Desktop\\新增資料夾\\AsciiArtGenerator\\AsciiArtLibrary\\AsciiArtLibrary.csproj"
+            "C:\\Users\\my\\Desktop\\C#\\AsciiArtLibrary\\AsciiArtLibrary.csproj": {
+              "projectPath": "C:\\Users\\my\\Desktop\\C#\\AsciiArtLibrary\\AsciiArtLibrary.csproj"
             }
           }
         }

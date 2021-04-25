@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\my\\Desktop\\新增資料夾\\AsciiArtGenerator\\AsciiArtLibrary\\AsciiArtLibrary.csproj": {}
+    "C:\\Users\\my\\Desktop\\C#\\AsciiArtLibrary\\AsciiArtLibrary.csproj": {}
   },
   "projects": {
-    "C:\\Users\\my\\Desktop\\新增資料夾\\AsciiArtGenerator\\AsciiArtLibrary\\AsciiArtLibrary.csproj": {
+    "C:\\Users\\my\\Desktop\\C#\\AsciiArtLibrary\\AsciiArtLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\my\\Desktop\\新增資料夾\\AsciiArtGenerator\\AsciiArtLibrary\\AsciiArtLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\my\\Desktop\\C#\\AsciiArtLibrary\\AsciiArtLibrary.csproj",
         "projectName": "AsciiArtLibrary",
-        "projectPath": "C:\\Users\\my\\Desktop\\新增資料夾\\AsciiArtGenerator\\AsciiArtLibrary\\AsciiArtLibrary.csproj",
+        "projectPath": "C:\\Users\\my\\Desktop\\C#\\AsciiArtLibrary\\AsciiArtLibrary.csproj",
         "packagesPath": "C:\\Users\\my\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\my\\Desktop\\新增資料夾\\AsciiArtGenerator\\AsciiArtLibrary\\obj\\",
+        "outputPath": "C:\\Users\\my\\Desktop\\C#\\AsciiArtLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
