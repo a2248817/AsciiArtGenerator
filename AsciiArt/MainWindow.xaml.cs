@@ -51,7 +51,7 @@ namespace AsciiArt
             {
                 var dir = Directory.CreateDirectory("AsciiOutputFiles");
                 string fileName = Path.GetFileNameWithoutExtension(SelectedImageName.Text);
-                using var file = File.Open($@"{dir.FullName}{Path.DirectorySeparatorChar}{fileName}.txt", FileMode.OpenOrCreate, FileAccess.Write);
+                using var file = File.Open($@"{dir.FullName}{Path.DirectorySeparatorChar}{fileName}.txt", FileMode.Create, FileAccess.Write);
                 using var sw = new StreamWriter(file);
                 sw.Write(AsciiOutput.Text, Encoding.UTF8);
                 MessageBox.Show($"已將輸出結果存至{file.Name}", "轉換成功", MessageBoxButton.OK);
