@@ -97,7 +97,7 @@ namespace AsciiArt
                 MessageBox.Show($"轉換中...");
                 return;
             }
-            using Bitmap bm = BitmapProcessor.NewSizeBitmap(selectedImage, Width, (int)((double)Width / selectedImage.Width * selectedImage.Height));
+            using Bitmap bm = BitmapProcessor.NewSizeBitmap(selectedImage, Width, (int)((double)Width / selectedImage.Width * selectedImage.Height / 2));
             AsciiOutput.Text = "";
 
             var pixels = BitmapProcessor.GetPixels(bm);
